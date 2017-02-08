@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Practice2_Grid.HomePage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="HomePage">
+    <Grid Spacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+
+        <BoxView Grid.Row="0"
+                 Grid.Column="0"
+                 BackgroundColor="#cc3333" />
+        <BoxView Grid.Row="0"
+                 Grid.Column="1"
+                 BackgroundColor="#cc3333"
+                 HeightRequest="50"
+                 HorizontalOptions="End"
+                 VerticalOptions="Start"
+                 WidthRequest="50" />
+        <BoxView Grid.Row="1"
+                 Grid.Column="0"
+                 Grid.ColumnSpan="2"
+                 BackgroundColor="#cc3333"
+                 HeightRequest="100"
+                 VerticalOptions="Center" />
+        <BoxView Grid.Row="1"
+                 Grid.Column="0"
+                 BackgroundColor="#cccccc"
+                 Opacity="0.5" />
+        <BoxView Grid.Row="2"
+                 Grid.Column="0"
+                 BackgroundColor="#cc3333"
+                 HeightRequest="50"
+                 VerticalOptions="Start"
+                 WidthRequest="100" />
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 BackgroundColor="#cc3333"
+                 HeightRequest="50"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="End" />
+
+    </Grid>
+</ContentPage>

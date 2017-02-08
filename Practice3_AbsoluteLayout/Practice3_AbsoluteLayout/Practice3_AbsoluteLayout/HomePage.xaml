@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Practice3_AbsoluteLayout.HomePage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="HomePage">
+    <AbsoluteLayout>
+        <BoxView AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0,0,0.33,0.33"
+                 BackgroundColor="#cc3333" />
+        <BoxView AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="1,0,0.5,0.5"
+                 BackgroundColor="#cc3333" />
+        <BoxView AbsoluteLayout.LayoutFlags="PositionProportional,HeightProportional"
+                 AbsoluteLayout.LayoutBounds="0,1,50,0.33"
+                 BackgroundColor="#cc3333" />
+        <BoxView AbsoluteLayout.LayoutFlags="PositionProportional"
+                 AbsoluteLayout.LayoutBounds="1,1,100,100"
+                 BackgroundColor="#cc3333" />
+        <Label AbsoluteLayout.LayoutFlags="PositionProportional"
+               AbsoluteLayout.LayoutBounds="0.5,0.5,200,150"
+               BackgroundColor="#aaaaaa"
+               HorizontalTextAlignment="Center"
+               Opacity="0.5"
+               Text="200x150"
+               VerticalTextAlignment="Center" />
+    </AbsoluteLayout>
+</ContentPage>
