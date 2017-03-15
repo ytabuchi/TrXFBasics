@@ -1,1 +1,3 @@
-# Xamarin.Forms basic layout practices
+# Xamarin training
+
+Xamarin.Forms basic layout practices
