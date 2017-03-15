@@ -1,2 +1,1 @@
-# TrXFBasics
-Xamarin.Forms Basics
+# Xamarin.Forms basic layout practices
